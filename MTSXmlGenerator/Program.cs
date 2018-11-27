@@ -21,7 +21,7 @@ namespace MtsXmlGenerator
 
             //XDocument doc = XDocument.Load(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\SO_NC_DIC_Temp.xml");
 
-            string doc = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\SO_NC_Itron_Template.xml");
+            string doc = File.ReadAllText(@"..\MtsXmlGenerator2\MtsXmlGenerator\Templates\SO_NC_Itron_Template.xml");
 
             //var tagText = doc.Root.Element("Header").Element("From").Value;
 
@@ -36,7 +36,7 @@ namespace MtsXmlGenerator
             //doc.Save(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\sord" + "_test_Temp" + rng.Next(100, 1000) + ".xml");
             //Console.ReadLine();
 
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\sord" + "_test_Temp" + nmi + rng.Next(100, 1000) + ".xml", doc);
+            File.WriteAllText(@"..\MtsXmlGenerator2\MtsXmlGenerator\Templates\sord" + "_test_Temp" + nmi + rng.Next(100, 1000) + ".xml", doc);
             
         }
     }
