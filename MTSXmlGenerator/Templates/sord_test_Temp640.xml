@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r36" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r36 http://www.nemmco.com.au/aseXML/schemas/r36/aseXML_r36.xsd">
+  <Header>
+    <From>POWERCOR</From>
+    <To>POWCP</To>
+    <MessageID>MSGID-7864897646</MessageID>
+    <MessageDate>2018-11-14T09:30:50+10:00</MessageDate>
+    <TransactionGroup>SORD</TransactionGroup>
+    <Priority>Medium</Priority>
+    <Market>NEM</Market>
+  </Header>
+  <Transactions>
+    <Transaction transactionID="TXNID-7864897646" transactionDate="2018-11-14T11:16:00+10:00">
+      <ServiceOrderRequest version="r36" actionType="New">
+        <ServiceOrder>
+          <NMI checksum="3">1234567890</NMI>
+          <ServiceOrderType xsi:type="ase:ElectricityServiceOrderType">
+            <WorkType workSubType="Install Meter">Metering Service Works</WorkType>
+          </ServiceOrderType>
+          <ServiceOrderNumber>7864897646</ServiceOrderNumber>
+        </ServiceOrder>
+        <ServicePoint>
+          <AccessDetails>Customer Reports No Access Requirements</AccessDetails>
+        </ServicePoint>
+        <ContactDetail>
+          <PersonName>
+            <NameTitle>Mr</NameTitle>
+            <GivenName>John</GivenName>
+            <FamilyName>Smith</FamilyName>
+          </PersonName>
+          <PhoneNumber serviceType="Mobile Voice">
+            <Prefix>0411</Prefix>
+            <Number>792805</Number>
+          </PhoneNumber>
+        </ContactDetail>
+        <Co-ordinatingContactDetail>
+          <PersonName>
+            <NameTitle>Mr</NameTitle>
+            <GivenName>John</GivenName>
+            <FamilyName>Smith</FamilyName>
+          </PersonName>
+          <PhoneNumber serviceType="Mobile Voice">
+            <Prefix>0411</Prefix>
+            <Number>792805</Number>
+          </PhoneNumber>
+        </Co-ordinatingContactDetail>
+        <AppointmentDetail>
+          <ScheduledDate>2018-11-30</ScheduledDate>
+        </AppointmentDetail>
+        <RequestData xsi:type="ase:ElectricityServiceOrderDetails">
+          <SpecialInstructions>
+            <CommentLine>This service order is to replace the previously raised 514500175.</CommentLine>
+            <CommentLine>The meter needs to be tested as readings are considerably higher</CommentLine>
+            <CommentLine>than what is expected.</CommentLine>
+          </SpecialInstructions>
+          <NMIStandingData xsi:type="ase:ElectricityStandingData">
+            <MasterData>
+              <ParentEmbeddedNetworkIdentifier>VPKMCOR</ParentEmbeddedNetworkIdentifier>
+              <Status>A</Status>
+            </MasterData>
+            <RoleAssignments>
+              <RoleAssignment>
+                <Party>POWERCOR</Party>
+                <Role>RP</Role>
+              </RoleAssignment>
+              <RoleAssignment>
+                <Party>POWERMDP</Party>
+                <Role>MDP</Role>
+              </RoleAssignment>
+              <RoleAssignment>
+                <Party>POWERCMP</Party>
+                <Role>MPB</Role>
+              </RoleAssignment>
+              <RoleAssignment>
+                <Party>POWERMDP</Party>
+                <Role>MPC</Role>
+              </RoleAssignment>
+            </RoleAssignments>
+            <MeterRegister>
+              <Meter>
+                <SerialNumber>5791331</SerialNumber>
+                <!-- <InstallationTypeCode>AMI</InstallationTypeCode> -->
+                <RegisterConfiguration>
+                  <Register>
+                    <NetworkTariffCode>GENR</NetworkTariffCode>
+                  </Register>
+                </RegisterConfiguration>
+              </Meter>
+            </MeterRegister>
+          </NMIStandingData>
+          <CustomerConsultationRequired>false</CustomerConsultationRequired>
+          <InstallationType>Overhead</InstallationType>
+          <SupplyPhase>1-phase</SupplyPhase>
+          <AverageDailyLoad>77</AverageDailyLoad>
+          <CustomerType>Residential</CustomerType>
+          <MeteringType>Two Rate</MeteringType>
+          <OffPeakRequirements>
+            <CommentLine>Hot Water</CommentLine>
+          </OffPeakRequirements>
+          <MaximumDemand>88</MaximumDemand>
+          <ServiceTime>Non-Business Hours</ServiceTime>
+          <SwitchingServiceRequired>Absolutely true</SwitchingServiceRequired>
+          <License>
+            <Licensee>
+              <NameTitle>Mr</NameTitle>
+              <GivenName>Ben</GivenName>
+              <FamilyName>Mitchell</FamilyName>
+            </Licensee>
+            <BusinessName>XYZ Pty Ltd</BusinessName>
+            <PhoneNumber serviceType="Fixed Voice">
+              <Prefix>03</Prefix>
+              <Number>97989898</Number>
+            </PhoneNumber>
+            <LicenseNumber>987978908</LicenseNumber>
+            <SafetyCertificate>
+              <ID>2340986</ID>
+              <MethodSent>Faxed</MethodSent>
+            </SafetyCertificate>
+            <DocumentReference>
+              <FormReference>EWR</FormReference>
+            </DocumentReference>
+            <AttendanceRequired>true</AttendanceRequired>
+          </License>
+          <MeterLicense>
+            <SafetyCertificate>
+              <ID>2340666</ID>
+              <MethodSent>Faxed</MethodSent>
+            </SafetyCertificate>
+          </MeterLicense>
+          <LifeSupport>No</LifeSupport>
+          <Co-ordinationRequired>Yes</Co-ordinationRequired>
+        </RequestData>
+      </ServiceOrderRequest>
+    </Transaction>
+  </Transactions>
+</ase:aseXML>

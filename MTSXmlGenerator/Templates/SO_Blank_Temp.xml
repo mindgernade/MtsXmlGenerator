@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r36" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:schemaLocation="urn:aseXML:r36 http://www.nemmco.com.au/aseXML/schemas/r36/aseXML_r36.xsd">
+	<Header>
+		<From>xx</From>
+		<To>xx</To>
+		<MessageID>xx</MessageID>
+		<MessageDate>xx</MessageDate>
+		<TransactionGroup>xx</TransactionGroup>
+		<Priority>xx</Priority>
+		<Market>xx</Market>
+	</Header>
+	<Transactions>
+		<Transaction transactionID="TXNID-7864897646" transactionDate="2018-11-14T11:16:00+10:00">
+			<ServiceOrderRequest version="r36" actionType="New">
+				<ServiceOrder>
+				<NMI checksum="5">xx</NMI>
+					
+					<ServiceOrderType xsi:type="ase:ElectricityServiceOrderType">
+						<WorkType workSubType="Install Meter">xx</WorkType>
+					</ServiceOrderType>
+					<ServiceOrderNumber>xx</ServiceOrderNumber>
+				</ServiceOrder>
+				<ServicePoint>
+					<AccessDetails>xx</AccessDetails>
+				</ServicePoint>
+				<ContactDetail>
+					<PersonName>
+						<NameTitle>xx</NameTitle>
+						<GivenName>xx</GivenName>
+						<FamilyName>xx</FamilyName>
+					</PersonName>
+					<PhoneNumber serviceType="Mobile Voice">
+						<Prefix>xx</Prefix>
+						<Number>xx</Number>
+					</PhoneNumber>
+				</ContactDetail>
+				<Co-ordinatingContactDetail>
+					<PersonName>
+						<NameTitle>xx</NameTitle>
+						<GivenName>xx</GivenName>
+						<FamilyName>xx</FamilyName>
+					</PersonName>
+					<PhoneNumber serviceType="Mobile Voice">
+						<Prefix>xx</Prefix>
+						<Number>xx</Number>
+					</PhoneNumber>
+				</Co-ordinatingContactDetail>
+				<AppointmentDetail>
+					<ScheduledDate>xx</ScheduledDate>
+				</AppointmentDetail>
+				<RequestData xsi:type="ase:ElectricityServiceOrderDetails">
+					<SpecialInstructions>
+						<CommentLine>xx</CommentLine>
+						<CommentLine>xx</CommentLine>
+						<CommentLine>xx</CommentLine>
+					</SpecialInstructions>
+					<NMIStandingData xsi:type="ase:ElectricityStandingData">
+						<MasterData>
+							<ParentEmbeddedNetworkIdentifier>xx</ParentEmbeddedNetworkIdentifier>
+							<Status>xx</Status>
+						</MasterData>
+						<RoleAssignments>
+                            <RoleAssignment>
+                                <Party>xx</Party>
+                                <Role>xx</Role>
+                            </RoleAssignment>
+                                <RoleAssignment>
+                                <Party>xx</Party>
+                                <Role>xx</Role>
+                            </RoleAssignment>
+                            <RoleAssignment>
+                            <Party>xx</Party>
+                                <Role>xx</Role>
+                            </RoleAssignment>
+                                <RoleAssignment>
+                                <Party>xx</Party>
+                                <Role>xx</Role>
+                            </RoleAssignment>
+                          </RoleAssignments>
+						<MeterRegister>
+							<Meter>
+							<SerialNumber>xx</SerialNumber>
+								<!-- <InstallationTypeCode>xx</InstallationTypeCode> -->
+								<RegisterConfiguration>
+									<Register>
+										<NetworkTariffCode>xx</NetworkTariffCode>
+									</Register>
+								</RegisterConfiguration>
+							</Meter>
+						</MeterRegister>
+					</NMIStandingData>
+					<CustomerConsultationRequired>xx</CustomerConsultationRequired>
+					<InstallationType>xx</InstallationType>
+					<SupplyPhase>xx</SupplyPhase>
+					<AverageDailyLoad>xx</AverageDailyLoad>
+					<CustomerType>xx</CustomerType>
+					<MeteringType>xx</MeteringType>
+					<OffPeakRequirements>
+						<CommentLine>xx</CommentLine>
+					</OffPeakRequirements>
+					<MaximumDemand>xx</MaximumDemand>
+					<ServiceTime>xx</ServiceTime>
+					<SwitchingServiceRequired>xx</SwitchingServiceRequired>
+					<License>
+						<Licensee>
+							<NameTitle>xx</NameTitle>
+							<GivenName>xx</GivenName>
+							<FamilyName>xx</FamilyName>
+						</Licensee>
+						<BusinessName>xx</BusinessName>
+						<PhoneNumber serviceType="Fixed Voice">
+							<Prefix>xx</Prefix>
+							<Number>xx</Number>
+						</PhoneNumber>
+						<LicenseNumber>xx</LicenseNumber>
+						<SafetyCertificate>
+							<ID>xx</ID>
+							<MethodSent>xx</MethodSent>
+						</SafetyCertificate>
+						<DocumentReference>
+							<FormReference>xx</FormReference>
+						</DocumentReference>
+						<AttendanceRequired>xx</AttendanceRequired>
+					</License>
+					<MeterLicense>
+						<SafetyCertificate>
+							<ID>xx</ID>
+							<MethodSent>xx</MethodSent>
+						</SafetyCertificate>				
+					</MeterLicense>
+					<LifeSupport>xx</LifeSupport>
+					<Co-ordinationRequired>xx</Co-ordinationRequired>
+				</RequestData>
+			</ServiceOrderRequest>
+		</Transaction>
+	</Transactions>
+</ase:aseXML>
