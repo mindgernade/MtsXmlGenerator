@@ -18,7 +18,7 @@ namespace MtsXmlGenerator
 
             Payloads.setUpPayloads(nmi, checksum);
 
-            XDocument doc = XDocument.Load(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\SO_NC_DIC_Temp.xml");
+            XDocument doc = XDocument.Load(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Templates\SO_NC_DIC_Temp.xml");
 
             //var tagText = doc.Root.Element("Header").Element("From").Value;
 
@@ -26,7 +26,7 @@ namespace MtsXmlGenerator
 
             doc.Root.Element("Transactions").Element("Transaction").Element("ServiceOrderRequest").Element("ServiceOrder").Element("NMI").Attribute("checksum").Value = checksum;
 
-            doc.Save(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\sord" + "_test_Temp" + rng.Next(100, 1000) + ".xml");
+            doc.Save(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Templates\sord" + "_test_Temp" + rng.Next(100, 1000) + ".xml");
             //Console.ReadLine();
             
         }

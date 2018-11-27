@@ -15,17 +15,17 @@ namespace MtsXmlGenerator
             Random random = new Random();
             int rng = random.Next(100, 999);
 
-            string payload1 = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Payloads\Payload1_DIC.sql");
-            string payload2 = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Payloads\Payload2_DIC.sql");
-            string payload3 = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Payloads\Payload3_DIC.sql");
+            string payload1 = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Payloads\Payload1_DIC.sql");
+            string payload2 = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Payloads\Payload2_DIC.sql");
+            string payload3 = File.ReadAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Payloads\Payload3_DIC.sql");
 
             payload1 = modifyPayload(payload1, nmi, checksum, rng);
             payload2 = modifyPayload(payload2, nmi, checksum, rng);
             payload3 = modifyPayload(payload3, nmi, checksum, rng);
 
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Payloads\Payload1_test.sql", payload1);
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Payloads\Payload2_test.sql", payload2);
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Payloads\Payload3_test.sql", payload3);
+            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator2\Payloads\Payload1_test.sql", payload1);
+            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator2\Payloads\Payload2_test.sql", payload2);
+            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator2\Payloads\Payload3_test.sql", payload3);
         }
 
         private static string modifyPayload(string payload, string nmi, string checksum, int rng)
