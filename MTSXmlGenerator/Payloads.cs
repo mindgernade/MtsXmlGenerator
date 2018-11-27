@@ -23,9 +23,9 @@ namespace MtsXmlGenerator
             payload2 = modifyPayload(payload2, nmi, checksum, rng);
             payload3 = modifyPayload(payload3, nmi, checksum, rng);
 
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator2\Payloads\Payload1_test.sql", payload1);
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator2\Payloads\Payload2_test.sql", payload2);
-            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator2\Payloads\Payload3_test.sql", payload3);
+            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Payloads\Payload1_test.sql", payload1);
+            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Payloads\Payload2_test.sql", payload2);
+            File.WriteAllText(@"C:\Users\ichavera\source\repos\MtsXmlGenerator2\MtsXmlGenerator\Payloads\Payload3_test.sql", payload3);
         }
 
         private static string modifyPayload(string payload, string nmi, string checksum, int rng)
