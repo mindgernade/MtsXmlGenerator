@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtsXmlGenerator", "MtsXmlGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtsXmlGeneratorTests", "MtsXmlGeneratorTests\MtsXmlGeneratorTests.csproj", "{58D7E067-CF41-4FD2-AFD0-A9430D4B8CEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlGenGUI", "..\XmlGenGUI\XmlGenGUI\XmlGenGUI.csproj", "{0322AC8C-22AC-4ABE-841A-8940DD430428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{58D7E067-CF41-4FD2-AFD0-A9430D4B8CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D7E067-CF41-4FD2-AFD0-A9430D4B8CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D7E067-CF41-4FD2-AFD0-A9430D4B8CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0322AC8C-22AC-4ABE-841A-8940DD430428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0322AC8C-22AC-4ABE-841A-8940DD430428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0322AC8C-22AC-4ABE-841A-8940DD430428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0322AC8C-22AC-4ABE-841A-8940DD430428}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
