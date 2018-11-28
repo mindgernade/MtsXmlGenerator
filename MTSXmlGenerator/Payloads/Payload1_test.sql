@@ -6,9 +6,9 @@ begin
   <iee:ConfigurationBatch xmlns:iee="http://www.itron.com/mdm/configuration/2008/04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esi="http://esi.glueltd.com.au/2008/dvm" xmlns:com="http://www.itron.com/mdm/common/2008/04" xmlns:mts="http://www.itron.com/mts/2008/08" xmlns:ched_MarketDetail="urn:ched_MarketDetail/1.1" xmlns:ched_NMIReferenceDetail="urn:ched_NMIReferenceDetail/1.1" xsi:schemaLocation="http://www.itron.com/mdm/configuration/2008/04 C:\dev.etverdolov\SOA-SC~1\aso\mts\v1.0\Configuration.xsd">
   <iee:ConfigurationTransfers>
     <iee:ConfigurationTransfer>
-      <com:CorrelationID>XLS_XML_Generation_Program_78648976452_001</com:CorrelationID>
+      <com:CorrelationID>XLS_XML_Generation_Program_11111111111_001</com:CorrelationID>
       <iee:ConfigurationUpdate xsi:type="iee:ServicePoint">
-        <iee:ServicePointID>79845613206</iee:ServicePointID>
+        <iee:ServicePointID>11111111111</iee:ServicePointID>
         <iee:ServicePointVersions>
           <iee:ServicePointVersion>
             <iee:ServicePointProgramID>SPP_I_0_B_1_TEST_DIC</iee:ServicePointProgramID>
@@ -36,7 +36,7 @@ begin
             </iee:FormulaConstants>
             <iee:ChannelLinkages>
               <iee:ChannelLinkage>
-                <iee:ChannelLink>6798455:1</iee:ChannelLink>
+                <iee:ChannelLink>1111995:1</iee:ChannelLink>
                 <iee:EffectiveDates>
                   <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                 </iee:EffectiveDates>
@@ -81,8 +81,8 @@ begin
         <iee:LinkedMeters>
           <iee:LinkedMeter>
             <iee:Meter>
-              <iee:MeterID>6798455</iee:MeterID>
-              <iee:MeterNumber>EQP679845</iee:MeterNumber>
+              <iee:MeterID>1111995</iee:MeterID>
+              <iee:MeterNumber>EQP111199</iee:MeterNumber>
               <iee:InstallDate>2018-01-01T00:00:00+10:00</iee:InstallDate>
               <iee:MeterVersions>
                 <iee:MeterVersion>

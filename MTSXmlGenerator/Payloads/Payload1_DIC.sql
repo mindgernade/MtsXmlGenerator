@@ -6,7 +6,7 @@ begin
   <iee:ConfigurationBatch xmlns:iee="http://www.itron.com/mdm/configuration/2008/04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esi="http://esi.glueltd.com.au/2008/dvm" xmlns:com="http://www.itron.com/mdm/common/2008/04" xmlns:mts="http://www.itron.com/mts/2008/08" xmlns:ched_MarketDetail="urn:ched_MarketDetail/1.1" xmlns:ched_NMIReferenceDetail="urn:ched_NMIReferenceDetail/1.1" xsi:schemaLocation="http://www.itron.com/mdm/configuration/2008/04 C:\dev.etverdolov\SOA-SC~1\aso\mts\v1.0\Configuration.xsd">
   <iee:ConfigurationTransfers>
     <iee:ConfigurationTransfer>
-      <com:CorrelationID>XLS_XML_Generation_Program_78648976452_001</com:CorrelationID>
+      <com:CorrelationID>XLS_XML_Generation_Program_@NMI_TEMP_001</com:CorrelationID>
       <iee:ConfigurationUpdate xsi:type="iee:ServicePoint">
         <iee:ServicePointID>@NMI_TEMP</iee:ServicePointID>
         <iee:ServicePointVersions>
@@ -87,7 +87,7 @@ begin
               <iee:MeterVersions>
                 <iee:MeterVersion>
                   <iee:MeterProgramID>MP_B_1_TEST_DIC</iee:MeterProgramID>
-                  <iee:EndpointID>78648976452</iee:EndpointID>
+                  <iee:EndpointID>@NMI_TEMP</iee:EndpointID>
                   <iee:EffectiveDates>
                     <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                   </iee:EffectiveDates>
