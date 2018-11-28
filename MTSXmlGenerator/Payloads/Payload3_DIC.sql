@@ -233,21 +233,21 @@ begin
           <mts:MarketParticipantReference>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWERCOR</mts:Participant>
+                <mts:Participant>@FROM</mts:Participant>
                 <mts:Role>LEGAL_ENTITY</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
             </mts:MarketParticipantReferenceRecord>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWERCOR</mts:Participant>
+                <mts:Participant>@FROM</mts:Participant>
                 <mts:Role>FRMP</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
             </mts:MarketParticipantReferenceRecord>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWCP</mts:Participant>
+                <mts:Participant>@TO</mts:Participant>
                 <mts:Role>LNSP</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
@@ -282,7 +282,7 @@ begin
             </mts:MarketParticipantReferenceRecord>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWCP</mts:Participant>
+                <mts:Participant>@TO</mts:Participant>
                 <mts:Role>RP</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
