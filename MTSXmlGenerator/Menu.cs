@@ -56,7 +56,8 @@ namespace MtsXmlGenerator
                 }
             }
 
-            return checksum.ToString();
+            return checksum;
         }
+
     }
 }
