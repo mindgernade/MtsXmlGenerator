@@ -19,7 +19,7 @@ namespace MtsXmlGenerator
             Random random = new Random();
             int rng = random.Next(100, 1000);
 
-            Payloads.setUpPayloads(nmi, checksum);
+            Payloads.setUpPayloads(nmi, checksum, "POWCP1", "POWERCR1");
 
             string doc = File.ReadAllText(@"..\..\Templates\SO_NC_Itron_Template.xml");
 
