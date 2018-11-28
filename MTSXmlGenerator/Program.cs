@@ -15,28 +15,19 @@ namespace MtsXmlGenerator
         {
             string nmi = Menu.GetNmi();
             string checksum = Menu.GetChecksum();
-            Random rng = new Random();
+
+            Random random = new Random();
+            int rng = random.Next(100, 1000);
 
             Payloads.setUpPayloads(nmi, checksum);
 
-            //XDocument doc = XDocument.Load(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\SO_NC_DIC_Temp.xml");
-
             string doc = File.ReadAllText(@"..\..\Templates\SO_NC_Itron_Template.xml");
 
-            //var tagText = doc.Root.Element("Header").Element("From").Value;
-
-            //doc.Root.Element("Transactions").Element("Transaction").Element("ServiceOrderRequest").Element("ServiceOrder").Element("NMI").Value = nmi;
-
             doc = doc.Replace("@NMI_TEMP", nmi);
-
-            //doc.Root.Element("Transactions").Element("Transaction").Element("ServiceOrderRequest").Element("ServiceOrder").Element("NMI").Attribute("checksum").Value = checksum;
-
             doc = doc.Replace("@CHECKSUM", checksum);
+            doc = doc.Replace("@RNG_SO", nmi + checksum + rng);
 
-            //doc.Save(@"C:\Users\ichavera\source\repos\MtsXmlGenerator\MtsXmlGenerator\Templates\sord" + "_test_Temp" + rng.Next(100, 1000) + ".xml");
-            //Console.ReadLine();
-
-            File.WriteAllText(@"..\..\Templates\sord" + "_test_Temp" + nmi + rng.Next(100, 1000) + ".xml", doc);
+            File.WriteAllText(@"..\..\Templates\sord" + "_test_Temp" + nmi + rng + ".xml", doc);
             
         }
     }

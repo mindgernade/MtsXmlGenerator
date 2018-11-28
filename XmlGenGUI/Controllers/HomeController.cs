@@ -26,5 +26,7 @@ namespace XmlGenGUI.Controllers
 
             return View();
         }
+        
+
     }
 }

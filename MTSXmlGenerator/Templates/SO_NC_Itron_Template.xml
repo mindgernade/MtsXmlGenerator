@@ -5,14 +5,14 @@
 	<Header>
 		<From>POWERCOR</From>
 		<To>POWCP</To>
-		<MessageID>MSGID-7864897646</MessageID>
+		<MessageID>MSGID-@RNG_SO</MessageID>
 		<MessageDate>2018-11-14T09:30:50+10:00</MessageDate>
 		<TransactionGroup>SORD</TransactionGroup>
 		<Priority>Medium</Priority>
 		<Market>NEM</Market>
 	</Header>
 	<Transactions>
-		<Transaction transactionID="TXNID-7864897646" transactionDate="2018-11-14T11:16:00+10:00">
+		<Transaction transactionID="TXNID-@RNG_SO" transactionDate="2018-11-14T11:16:00+10:00">
 			<ServiceOrderRequest version="r36" actionType="New">
 				<ServiceOrder>
 				<NMI checksum="@CHECKSUM">@NMI_TEMP</NMI>
@@ -20,7 +20,7 @@
 					<ServiceOrderType xsi:type="ase:ElectricityServiceOrderType">
 						<WorkType workSubType="Install Meter">Metering Service Works</WorkType>
 					</ServiceOrderType>
-					<ServiceOrderNumber>7864897646</ServiceOrderNumber>
+					<ServiceOrderNumber>@RNG_SO</ServiceOrderNumber>
 				</ServiceOrder>
 				<ServicePoint>
 					<AccessDetails>Customer Reports No Access Requirements</AccessDetails>
