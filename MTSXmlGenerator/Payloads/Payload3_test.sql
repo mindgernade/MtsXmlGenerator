@@ -8,7 +8,7 @@ begin
     <iee:ConfigurationTransfer>
       <com:CorrelationID>XLS_XML_Generation_Program_78648976452_001</com:CorrelationID>
       <iee:ConfigurationUpdate xsi:type="iee:ServicePoint">
-        <iee:ServicePointID>78945612308</iee:ServicePointID>
+        <iee:ServicePointID>79845613206</iee:ServicePointID>
         <iee:ServicePointVersions>
           <iee:ServicePointVersion>
             <iee:ServicePointProgramID>SPP_I_0_B_1_TEST_DIC</iee:ServicePointProgramID>
@@ -36,7 +36,7 @@ begin
             </iee:FormulaConstants>
             <iee:ChannelLinkages>
               <iee:ChannelLinkage>
-                <iee:ChannelLink>8789515:1</iee:ChannelLink>
+                <iee:ChannelLink>6798455:1</iee:ChannelLink>
                 <iee:EffectiveDates>
                   <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                 </iee:EffectiveDates>
@@ -81,8 +81,8 @@ begin
         <iee:LinkedMeters>
           <iee:LinkedMeter>
             <iee:Meter>
-              <iee:MeterID>8789515</iee:MeterID>
-              <iee:MeterNumber>EQP878951</iee:MeterNumber>
+              <iee:MeterID>6798455</iee:MeterID>
+              <iee:MeterNumber>EQP679845</iee:MeterNumber>
               <iee:InstallDate>2018-01-01T00:00:00+10:00</iee:InstallDate>
               <iee:MeterVersions>
                 <iee:MeterVersion>
