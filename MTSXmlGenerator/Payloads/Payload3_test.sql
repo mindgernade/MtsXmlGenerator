@@ -6,9 +6,9 @@ begin
   <iee:ConfigurationBatch xmlns:iee="http://www.itron.com/mdm/configuration/2008/04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esi="http://esi.glueltd.com.au/2008/dvm" xmlns:com="http://www.itron.com/mdm/common/2008/04" xmlns:mts="http://www.itron.com/mts/2008/08" xmlns:ched_MarketDetail="urn:ched_MarketDetail/1.1" xmlns:ched_NMIReferenceDetail="urn:ched_NMIReferenceDetail/1.1" xsi:schemaLocation="http://www.itron.com/mdm/configuration/2008/04 C:\dev.etverdolov\SOA-SC~1\aso\mts\v1.0\Configuration.xsd">
   <iee:ConfigurationTransfers>
     <iee:ConfigurationTransfer>
-      <com:CorrelationID>XLS_XML_Generation_Program_66666666668_001</com:CorrelationID>
+      <com:CorrelationID>XLS_XML_Generation_Program_12345678907_001</com:CorrelationID>
       <iee:ConfigurationUpdate xsi:type="iee:ServicePoint">
-        <iee:ServicePointID>66666666668</iee:ServicePointID>
+        <iee:ServicePointID>12345678907</iee:ServicePointID>
         <iee:ServicePointVersions>
           <iee:ServicePointVersion>
             <iee:ServicePointProgramID>SPP_I_0_B_1_TEST_DIC</iee:ServicePointProgramID>
@@ -36,7 +36,7 @@ begin
             </iee:FormulaConstants>
             <iee:ChannelLinkages>
               <iee:ChannelLinkage>
-                <iee:ChannelLink>8666125:1</iee:ChannelLink>
+                <iee:ChannelLink>7123843:1</iee:ChannelLink>
                 <iee:EffectiveDates>
                   <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                 </iee:EffectiveDates>
@@ -81,13 +81,13 @@ begin
         <iee:LinkedMeters>
           <iee:LinkedMeter>
             <iee:Meter>
-              <iee:MeterID>8666125</iee:MeterID>
-              <iee:MeterNumber>EQP866612</iee:MeterNumber>
+              <iee:MeterID>7123843</iee:MeterID>
+              <iee:MeterNumber>EQP712384</iee:MeterNumber>
               <iee:InstallDate>2018-01-01T00:00:00+10:00</iee:InstallDate>
               <iee:MeterVersions>
                 <iee:MeterVersion>
                   <iee:MeterProgramID>MP_B_1_TEST_DIC</iee:MeterProgramID>
-                  <iee:EndpointID>66666666668</iee:EndpointID>
+                  <iee:EndpointID>12345678907</iee:EndpointID>
                   <iee:EffectiveDates>
                     <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                   </iee:EffectiveDates>

@@ -13,6 +13,15 @@ namespace XmlGenGUI.Controllers {
     public partial class SOGenXmlPage {
         
         /// <summary>
+        /// nmi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText nmi;
+        
+        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>

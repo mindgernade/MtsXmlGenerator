@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1 style="text-align: center;"><span style="color: #045fb4;">Service Order XML Generator</span></h1>
-    <p style="text-align: center;">
+    <div style="text-align: center;">
     <form method="post" action="SOGenXmlPage.aspx" runat="server">
-        NMI: <input id="nmi" size="10" type="text" />
+        NMI: <input name="nmi" id="nmi" size="10" type="text" runat="server"/>
         &nbsp;Checksum: <input id="checkSum" size="1/" type="text" />
         <asp:Button  id="btnSubmit" Text="Generate XML" runat="server" OnClick="Submit_Click"/>
     </form>
@@ -22,7 +22,7 @@
         <option value="FromPOWCP">PowCP</option>
         </select>
 
-    </p>
+    </div>
     
         
         
