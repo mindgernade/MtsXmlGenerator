@@ -9,22 +9,22 @@ namespace XmlGenGUI.Controllers
 {
     public class SOGenController : Controller
     {
-        public ActionResult XMLGen()
+        public ActionResult SOGenXmlPage()
         {
 
             ViewBag.Message = "Service Order XML Generation";
-
+            Debug.Write("SOGenController:Load!\n");
             return View();
         }
 
-        public ActionResult SOXmlGen()
+        [HttpPost]
+        public ActionResult ButtonSubmitClick()
         {
 
-            ViewBag.Message = "Service Order XML Generation";
-
+            Debug.Write("SOGenController:Click!\n");
             return View();
         }
 
-        
+
     }
 }

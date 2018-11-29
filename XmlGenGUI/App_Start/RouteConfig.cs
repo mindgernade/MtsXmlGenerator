@@ -16,7 +16,7 @@ namespace XmlGenGUI
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "SOGen", action = "SOXmlGen", id = UrlParameter.Optional }
+                defaults: new { controller = "SOGen", action = "SOGenXmlPage", id = UrlParameter.Optional }
             );
         }
     }

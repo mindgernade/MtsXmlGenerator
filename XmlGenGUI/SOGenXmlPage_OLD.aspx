@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SOGenXmlPage.aspx.cs" Inherits="XmlGenGUI.Controllers.SOGenXmlPage" %>
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25,8 +24,7 @@
         <option value="FromPOWCP">PowCP</option>
         </select>
 
-        <asp:Button  id="btnSubmit" Text="Generate XML" runat="server" OnClick="Submit_Click"/>
-
+        <asp:Button  id="btnSubmit" Text="Generate XML" OnClick="ButtonSubmitClick" runat="server"/>
     </form>
     </div>
 </body>

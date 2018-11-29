@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <h1 style="text-align: center;"><span style="color: #045fb4;">Service Order XML Generator</span></h1>
+    <div style="text-align: center;">
+        <h2>NMI: </h2>
+        <input id="nmi" size="10" type="text" runat="server" />
+        <h2>&nbsp;Checksum: </h2>
+        <input id="checkSum" size="1" type="text" runat="server" />
+
+        <h2>&nbsp;To:</h2>
+
+        <select id="toDrop" runat="server">
+            <option value="ToPOWERCOR">Powercor</option>
+            <option value="ToPOWCP">PowCP</option>
+
+        </select>
+
+        <h2>&nbsp;From:</h2>
+
+        <select id="fromDrop" runat="server">
+            <option value="FromPOWERCOR">Powercor</option>
+            <option value="FromPOWCP">PowCP</option>
+        </select>
+
+        @using (Html.BeginForm("SOGenController"))
+        {
+
+        <input type="submit" value="Create" />
+
+        }
+
+    </div>
+</body>
+</html>
