@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtsXmlGenerator", "MtsXmlGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtsXmlGeneratorTests", "MtsXmlGeneratorTests\MtsXmlGeneratorTests.csproj", "{58D7E067-CF41-4FD2-AFD0-A9430D4B8CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlGenGUI", "..\XmlGenGUI\XmlGenGUI\XmlGenGUI.csproj", "{0322AC8C-22AC-4ABE-841A-8940DD430428}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlGenGUI", "XmlGenGUI\XmlGenGUI.csproj", "{0322AC8C-22AC-4ABE-841A-8940DD430428}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
