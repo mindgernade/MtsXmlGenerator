@@ -22,24 +22,6 @@ namespace XmlGenGUI.Controllers {
         protected global::System.Web.UI.HtmlControls.HtmlInputText nmi;
         
         /// <summary>
-        /// NmiSumEmptyValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator NmiSumEmptyValidator;
-        
-        /// <summary>
-        /// RegularExpressionValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
-        
-        /// <summary>
         /// checkSum control.
         /// </summary>
         /// <remarks>
@@ -47,24 +29,6 @@ namespace XmlGenGUI.Controllers {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText checkSum;
-        
-        /// <summary>
-        /// CheckSumEmptyValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator CheckSumEmptyValidator;
-        
-        /// <summary>
-        /// CheckSumValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator CheckSumValidator;
         
         /// <summary>
         /// toDrop control.
@@ -85,12 +49,12 @@ namespace XmlGenGUI.Controllers {
         protected global::System.Web.UI.HtmlControls.HtmlSelect fromDrop;
         
         /// <summary>
-        /// Button1 control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
     }
 }
