@@ -22,6 +22,33 @@ namespace XmlGenGUI.Controllers {
         protected global::System.Web.UI.HtmlControls.HtmlInputText nmi;
         
         /// <summary>
+        /// checkSum control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText checkSum;
+        
+        /// <summary>
+        /// toDrop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect toDrop;
+        
+        /// <summary>
+        /// fromDrop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect fromDrop;
+        
+        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>

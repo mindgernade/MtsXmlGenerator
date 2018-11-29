@@ -10,24 +10,24 @@
     <h1 style="text-align: center;"><span style="color: #045fb4;">Service Order XML Generator</span></h1>
     <div style="text-align: center;">
     <form method="post" action="SOGenXmlPage.aspx" runat="server">
-        NMI: <input name="nmi" id="nmi" size="10" type="text" runat="server"/>
-        &nbsp;Checksum: <input id="checkSum" size="1/" type="text" />
-        <asp:Button  id="btnSubmit" Text="Generate XML" runat="server" OnClick="Submit_Click"/>
-    </form>
+        NMI: <input id="nmi" size="10" type="text" runat="server"/>
+        &nbsp;Checksum: <input id="checkSum" size="1" type="text" runat="server" />
+        
+
+        <select id="toDrop" runat="server">
         <option value="ToPOWERCOR">Powercor</option>
         <option value="ToPOWCP">PowCP</option>
 
-        </select>&nbsp;From:&nbsp;<select>
+        </select>&nbsp;From:&nbsp;
+
+        <select id="fromDrop" runat="server">
         <option value="FromPOWERCOR">Powercor</option>
         <option value="FromPOWCP">PowCP</option>
         </select>
 
-    </div>
-    
-        
-        
+        <asp:Button  id="btnSubmit" Text="Generate XML" runat="server" OnClick="Submit_Click"/>
 
-    
-    
+    </form>
+    </div>
 </body>
 </html>

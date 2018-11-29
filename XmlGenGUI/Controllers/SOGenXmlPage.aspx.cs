@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace XmlGenGUI.Controllers
 {
     public partial class SOGenXmlPage : System.Web.UI.Page
@@ -17,10 +18,12 @@ namespace XmlGenGUI.Controllers
 
         protected void Submit_Click(object sender, EventArgs e)
         {
-            string nmi = String.Format("{0}", Request.Form["nmi"]);
-            string checkSum = String.Format("{0}", Request.Form["checkSum"]);
+            string nmiStr = nmi.Value;
+            string checkSumStr = checkSum.Value;
+            string toStr = toDrop.Value;
+            string fromStr = fromDrop.Value;
 
-            Debug.Write("\nClick! " + nmi + " Checksum: " + checkSum + "\n");
+            Debug.Write("\nClick! " + nmiStr + " Checksum: " + checkSumStr + "\n");
 
         }
     }
