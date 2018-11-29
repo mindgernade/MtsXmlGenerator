@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MtsXmlGenerator;
 
 namespace XmlGenGUI.Controllers
 {
@@ -17,13 +19,23 @@ namespace XmlGenGUI.Controllers
             return View();
         }
         
-        public ActionResult ButtonSubmitClick( string nmi, string checkSum )
+        public ActionResult ButtonSubmitClick( string nmi, string checkSum, string toDrop, string fromDrop )
         {
             Debug.Write("SOGenController:Click!\n");
-
+            Payloads.setUpPayloads( nmi, checkSum, toDrop, fromDrop );
 
             return View("SOGenXmlPage");
         }
+        /*
+        public FileResult Download( string FileId )
+        {
+            int CurrentFileID = Convert.ToInt32(FileId);
+            string CurrentFileName = "";
+
+            string contentType = "application/xml";
+            
+                return File( , contentType, );
+        }*/
 
 
     }
