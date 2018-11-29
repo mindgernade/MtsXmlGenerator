@@ -32,12 +32,7 @@
             <option value="FromPOWCP">PowCP</option>
         </select>
 
-        @using (Html.BeginForm("SOGenController"))
-        {
-
-        <input type="submit" value="Create" />
-
-        }
+        <input type="button" value="Create" onclick="location.href='@Url.Action("ButtonSubmitClick", "SOGen" )'" />
 
     </div>
 </body>

@@ -16,13 +16,13 @@ namespace XmlGenGUI.Controllers
             Debug.Write("SOGenController:Load!\n");
             return View();
         }
-
-        [HttpPost]
+        
         public ActionResult ButtonSubmitClick()
         {
 
             Debug.Write("SOGenController:Click!\n");
-            return View();
+
+            return View("SOGenXmlPage");
         }
 
 
