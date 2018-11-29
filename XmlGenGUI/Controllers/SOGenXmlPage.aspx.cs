@@ -17,7 +17,11 @@ namespace XmlGenGUI.Controllers
 
         protected void Submit_Click(object sender, EventArgs e)
         {
-            Debug.Write("\nClick!\n");
+            string nmi = String.Format("{0}", Request.Form["nmi"]);
+            string checkSum = String.Format("{0}", Request.Form["checkSum"]);
+
+            Debug.Write("\nClick! " + nmi + " Checksum: " + checkSum + "\n");
+
         }
     }
 }
