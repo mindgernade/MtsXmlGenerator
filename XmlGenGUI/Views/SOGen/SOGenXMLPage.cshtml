@@ -11,13 +11,13 @@
     <title></title>
 </head>
 <body>
-    <form method="get" action="@Url.Action("ButtonSubmitClick", "SOGen")" >
+    <form method="post" action="@Url.Action("ButtonSubmitClick", "SOGen")" >
     <h1 style="text-align: center;"><span style="color: #045fb4;">Service Order XML Generator</span></h1>
 
     <table id="table1">
         <tr>
             <td>NMI:</td>
-            <td><input id="nmi" size="10" type="text" runat="server" /> </td>
+            <td> <input id="nmi" name="nmi" size="10" type="text" runat="server" /> </td>
             <td>
                 <asp:RequiredFieldValidator ID="NmiSumEmptyValidator" runat="server" ControlToValidate="nmi" ForeColor="Red" ErrorMessage="*"></asp:RequiredFieldValidator>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="nmi" ErrorMessage="NMI must be a unique 10 digit number" ForeColor="Red" ValidationExpression="\d{10}"></asp:RegularExpressionValidator>
@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td>Checksum:</td>
-            <td><input id="checkSum" size="10" type="text" runat="server" /></td>
+            <td><input id="checkSum" name="checkSum" size="10" type="text" runat="server" /></td>
             <td>
                 <asp:RequiredFieldValidator ID="CheckSumEmptyValidator" runat="server" ControlToValidate="checkSum" ForeColor="Red" ErrorMessage="*"></asp:RequiredFieldValidator>
                 <asp:RegularExpressionValidator ID="CheckSumValidator" runat="server" ControlToValidate="checkSum" ErrorMessage="Checksum must be a 1 digit number" ForeColor="Red" ValidationExpression="\d{1}"></asp:RegularExpressionValidator>
