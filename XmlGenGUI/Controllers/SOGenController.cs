@@ -19,8 +19,9 @@ namespace XmlGenGUI.Controllers
         
         public ActionResult ButtonSubmitClick()
         {
-
+            
             Debug.Write("SOGenController:Click!\n");
+
 
             return View("SOGenXmlPage");
         }
