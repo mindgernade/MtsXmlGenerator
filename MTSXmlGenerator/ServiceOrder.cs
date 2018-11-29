@@ -14,13 +14,13 @@ namespace MtsXmlGenerator
             Random random = new Random();
             int rng = random.Next(100, 1000);
 
-            string doc = File.ReadAllText(@"..\..\Templates\SO_NC_Itron_Template.xml");
+            StringBuilder doc = new StringBuilder(File.ReadAllText(@"..\..\Templates\SO_NC_Itron_Template.xml"));
 
             doc = doc.Replace("@NMI_TEMP", nmi);
             doc = doc.Replace("@CHECKSUM", checksum);
             doc = doc.Replace("@RNG_SO", nmi + checksum + rng);
 
-            File.WriteAllText(@"..\..\Templates\sord" + "_test_Temp" + nmi + rng + ".xml", doc);
+            File.WriteAllText(@"..\..\Templates\sord" + "_test_Temp" + nmi + rng + ".xml", doc.ToString());
         }
     }
 }
