@@ -17,7 +17,7 @@ namespace XmlGenGUI.Controllers
             return View();
         }
         
-        public ActionResult ButtonSubmitClick()
+        public ActionResult ButtonSubmitClick( string nmi, string checkSum )
         {
             
             Debug.Write("SOGenController:Click!\n");

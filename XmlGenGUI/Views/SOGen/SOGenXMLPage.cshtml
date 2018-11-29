@@ -11,8 +11,9 @@
     <title></title>
 </head>
 <body>
+    <form method="get" action="@Url.Action("ButtonSubmitClick", "SOGen")" >
     <h1 style="text-align: center;"><span style="color: #045fb4;">Service Order XML Generator</span></h1>
-    @using (Html.BeginForm("ButtonSubmitClick", "SOGen", FormMethod.Post)){  
+
     <table id="table1">
         <tr>
             <td>NMI:</td>
@@ -48,8 +49,8 @@
     <br />
 
     <div style="text-align: center;">
-        <input type="button" value="Generate XML" />
+        <input type="submit" value="Generate XML" />
     </div>
-    }
+    </form>
 </body>
 </html>
