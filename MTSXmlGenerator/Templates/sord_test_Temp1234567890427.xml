@@ -1,26 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ase:aseXML xmlns:ase="urn:aseXML:r36" 
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xsi:schemaLocation="urn:aseXML:r36 http://www.nemmco.com.au/aseXML/schemas/r36/aseXML_r36.xsd">
 	<Header>
-		<From>@FROM</From>
-		<To>@TO</To>
-		<MessageID>MSGID-@RNG_SO</MessageID>
+		<From>POWERCOR</From>
+		<To>POWERCOR</To>
+		<MessageID>MSGID-12345678901427</MessageID>
 		<MessageDate>2018-11-14T09:30:50+10:00</MessageDate>
 		<TransactionGroup>SORD</TransactionGroup>
 		<Priority>Medium</Priority>
 		<Market>NEM</Market>
 	</Header>
 	<Transactions>
-		<Transaction transactionID="TXNID-@RNG_SO" transactionDate="2018-11-14T11:16:00+10:00">
+		<Transaction transactionID="TXNID-12345678901427" transactionDate="2018-11-14T11:16:00+10:00">
 			<ServiceOrderRequest version="r36" actionType="New">
 				<ServiceOrder>
-				<NMI checksum="@CHECKSUM">@NMI_TEMP</NMI>
+				<NMI checksum="1">1234567890</NMI>
 					
 					<ServiceOrderType xsi:type="ase:ElectricityServiceOrderType">
 						<WorkType workSubType="Install Meter">Metering Service Works</WorkType>
 					</ServiceOrderType>
-					<ServiceOrderNumber>@RNG_SO</ServiceOrderNumber>
+					<ServiceOrderNumber>12345678901427</ServiceOrderNumber>
 				</ServiceOrder>
 				<ServicePoint>
 					<AccessDetails>Customer Reports No Access Requirements</AccessDetails>
@@ -63,7 +63,7 @@
 						</MasterData>
 						<RoleAssignments>
                             <RoleAssignment>
-                                <Party>@TO</Party>
+                                <Party>POWERCOR</Party>
                                 <Role>RP</Role>
                             </RoleAssignment>
                                 <RoleAssignment>

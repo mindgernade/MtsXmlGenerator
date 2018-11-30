@@ -13,12 +13,12 @@ namespace MtsXmlGenerator
     {
         static void Main(string[] args)
         {
-            string nmi = Menu.GetNmi();
-            string checksum = Menu.GetChecksum();
+            //string nmi = Menu.GetNmi();
+            //string checksum = Menu.GetChecksum();
 
-            Payloads.setUpPayloads(nmi, checksum, "POWCP1", "POWERCR1");
+            //Payloads.setUpPayloads(nmi, checksum, "POWCP1", "POWERCR1");
 
-            ServiceOrder.setUpServiceOrder(nmi, checksum);
+            //ServiceOrder.setUpServiceOrder(nmi, checksum, toDrop);
         }
     }
 }

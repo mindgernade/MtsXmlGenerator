@@ -58,6 +58,7 @@
     <Content Include="Payloads\Payload3_DIC.sql" />
     <Content Include="Templates\SO_Blank_Temp.xml" />
     <Content Include="Templates\SO_NC_DIC_Temp.xml" />
+    <Content Include="Templates\SO_NC_Itron_Template.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

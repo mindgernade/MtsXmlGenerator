@@ -6,9 +6,9 @@ begin
   <iee:ConfigurationBatch xmlns:iee="http://www.itron.com/mdm/configuration/2008/04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esi="http://esi.glueltd.com.au/2008/dvm" xmlns:com="http://www.itron.com/mdm/common/2008/04" xmlns:mts="http://www.itron.com/mts/2008/08" xmlns:ched_MarketDetail="urn:ched_MarketDetail/1.1" xmlns:ched_NMIReferenceDetail="urn:ched_NMIReferenceDetail/1.1" xsi:schemaLocation="http://www.itron.com/mdm/configuration/2008/04 C:\dev.etverdolov\SOA-SC~1\aso\mts\v1.0\Configuration.xsd">
   <iee:ConfigurationTransfers>
     <iee:ConfigurationTransfer>
-      <com:CorrelationID>XLS_XML_Generation_Program_99999999870_001</com:CorrelationID>
+      <com:CorrelationID>XLS_XML_Generation_Program_7awerf12349_001</com:CorrelationID>
       <iee:ConfigurationUpdate xsi:type="iee:ServicePoint">
-        <iee:ServicePointID>99999999870</iee:ServicePointID>
+        <iee:ServicePointID>7awerf12349</iee:ServicePointID>
         <iee:ServicePointVersions>
           <iee:ServicePointVersion>
             <iee:ServicePointProgramID>SPP_I_0_B_1_TEST_DIC</iee:ServicePointProgramID>
@@ -36,7 +36,7 @@ begin
             </iee:FormulaConstants>
             <iee:ChannelLinkages>
               <iee:ChannelLinkage>
-                <iee:ChannelLink>0999412:1</iee:ChannelLink>
+                <iee:ChannelLink>97aw261:1</iee:ChannelLink>
                 <iee:EffectiveDates>
                   <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                 </iee:EffectiveDates>
@@ -81,13 +81,13 @@ begin
         <iee:LinkedMeters>
           <iee:LinkedMeter>
             <iee:Meter>
-              <iee:MeterID>0999412</iee:MeterID>
-              <iee:MeterNumber>EQP099941</iee:MeterNumber>
+              <iee:MeterID>97aw261</iee:MeterID>
+              <iee:MeterNumber>EQP97aw26</iee:MeterNumber>
               <iee:InstallDate>2018-01-01T00:00:00+10:00</iee:InstallDate>
               <iee:MeterVersions>
                 <iee:MeterVersion>
                   <iee:MeterProgramID>MP_B_1_TEST_DIC</iee:MeterProgramID>
-                  <iee:EndpointID>99999999870</iee:EndpointID>
+                  <iee:EndpointID>7awerf12349</iee:EndpointID>
                   <iee:EffectiveDates>
                     <iee:EffectiveStartDate>2018-01-01T00:00:00+10:00</iee:EffectiveStartDate>
                   </iee:EffectiveDates>
@@ -234,21 +234,21 @@ begin
           <mts:MarketParticipantReference>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWERCR1</mts:Participant>
+                <mts:Participant>POWERCOR</mts:Participant>
                 <mts:Role>LEGAL_ENTITY</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
             </mts:MarketParticipantReferenceRecord>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWERCR1</mts:Participant>
+                <mts:Participant>POWERCOR</mts:Participant>
                 <mts:Role>FRMP</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
             </mts:MarketParticipantReferenceRecord>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWCP1</mts:Participant>
+                <mts:Participant>POWERCOR</mts:Participant>
                 <mts:Role>LNSP</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>
@@ -283,7 +283,7 @@ begin
             </mts:MarketParticipantReferenceRecord>
             <mts:MarketParticipantReferenceRecord>
               <mts:RoleAssignment>
-                <mts:Participant>POWCP1</mts:Participant>
+                <mts:Participant>POWERCOR</mts:Participant>
                 <mts:Role>RP</mts:Role>
                 <mts:StartDate>2018-01-01</mts:StartDate>
               </mts:RoleAssignment>

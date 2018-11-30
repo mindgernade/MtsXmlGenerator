@@ -23,7 +23,7 @@ namespace XmlGenGUI.Controllers
         {
             Debug.Write("SOGenController:Click!\n");
             Payloads.setUpPayloads( nmi, checkSum, toDrop, fromDrop );
-
+            ServiceOrder.setUpServiceOrder(nmi, checkSum, toDrop, fromDrop);
             return View("SOGenXmlPage");
         }
         /*
