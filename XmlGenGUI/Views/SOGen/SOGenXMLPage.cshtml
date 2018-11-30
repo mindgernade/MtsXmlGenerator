@@ -18,25 +18,21 @@
         <tr>
             <td>NMI:</td>
             <td> <input id="nmi" name="nmi" type="text" runat="server" required placeholder="Enter a Valid NMI" pattern="[A-Za-z0-9]{10,10}" title="NMI should be 10 characters long"/> </td>
-            <td>
-                
-            </td>
         </tr>
         <tr>
             <td>Checksum:</td>
             <td><input id="checkSum" name="checkSum" type="number" runat="server" required min="0" max="9"/></td>
-            <td>
-
-            </td>
         </tr>
         <tr>
             <td>
+                To: 
                 <select id="toDrop" name="toDrop" runat="server">
                     <option value="POWERCOR">Powercor</option>
                     <option value="POWCP">PowCP</option>
                 </select>
             </td>
             <td>
+                From:
                 <select id="fromDrop" name="fromDrop" runat="server">
                     <option value="POWERCOR">Powercor</option>
                     <option value="POWCP">PowCP</option>
